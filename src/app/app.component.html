@@ -1,0 +1,815 @@
+<!-- Navbar -->
+<div class="main">
+  <header>
+    <nav
+      id="navbar-example"
+      class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          (click)="collapsed = !collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#"
+          ><h3 class="text-white"><i class="fas fa-code"></i></h3
+        ></a>
+        <a href="#" class="navbar-brand d-none d-md-block d-lg-block"
+          ><h3>
+            &nbsp;&nbsp;<span class="text_1">Hello, Everyone...</span
+            ><span class="text_2">Welcome to My Portfolio</span>
+          </h3></a
+        >
+        <div
+          class="collapse navbar-collapse"
+          [class.collapse]="collapsed"
+          (window:resize)="('collapsed = true')"
+          id="Navbar"
+        >
+          <ul
+            class="navbar-nav ml-auto animate__animated animate__lightSpeedInLeft animate__delay-2s"
+          >
+            <li
+              class="nav-item animate__animated animate__lightSpeedInLeft animate__delay-3s"
+            >
+              <a href="#About" class="nav-link">About</a>
+            </li>
+            <li
+              class="nav-item animate__animated animate__lightSpeedInLeft animate__delay-3s"
+            >
+              <a href="#Skills" class="nav-link">Expertise</a>
+            </li>
+            <li
+              class="nav-item animate__animated animate__lightSpeedInLeft animate__delay-3s"
+            >
+              <a href="#Projects" class="nav-link">Activity</a>
+            </li>
+            <li
+              class="nav-item animate__animated animate__lightSpeedInLeft animate__delay-3s"
+            >
+              <a href="#Experience" class="nav-link">Action</a>
+            </li>
+            <li
+              class="nav-item animate__animated animate__lightSpeedInLeft animate__delay-3s"
+            >
+              <a href="#Contact" class="nav-link">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ShowCase -->
+  <div
+    id="bg-img"
+    class="my-custom-scrollbar my-custom-scrollbar-primary"
+  ></div>
+
+  <div>
+    <!-- About me -->
+    <section id="About">
+      <div class="container">
+        <div class="card mb-3">
+          <!-- style="background-color: #ffcdd2" -->
+          <div class="aboutData">
+            <div class="row no-gutters">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="media">
+                  <img
+                    src="../assets/images/soundar.jpg"
+                    height="250px"
+                    width="250px"
+                    class="img-fluid rounded-top mx-auto my-5 d-lg-block animate__animated animate__zoomIn animate__delay-2s"
+                  />
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card-body mx-auto my-5">
+                  <h3
+                    class="ml-3 card-title nav-item animate__animated animate__lightSpeedInRight animate__delay-5s"
+                  >
+                    I'm Soundararajan
+                  </h3>
+                  <p
+                    class="card-text animate__animated animate__lightSpeedInRight animate__delay-5s"
+                  >
+                    <span class="text-muted" style="font-size: large"
+                      >Junior Developer</span
+                    >
+                  </p>
+                  <p
+                    class="card-text animate__animated animate__lightSpeedInRight animate__delay-5s"
+                  >
+                    <span class="text-muted">
+                      <i class="far fa-user"></i>&nbsp;&nbsp;25 Years Old</span
+                    >
+                  </p>
+                  <p
+                    class="card-text animate__animated animate__lightSpeedInRight animate__delay-5s"
+                  >
+                    <span class="text-muted"
+                      ><i class="fas fa-at"></i>&nbsp;&nbsp;<a
+                        href="https://mail.google.com/"
+                        target="_blank"
+                        >soundarit1995@gmail.com</a
+                      ></span
+                    >
+                  </p>
+                  <p
+                    class="card-text animate__animated animate__lightSpeedInRight animate__delay-5s"
+                  >
+                    <span class="text-muted"
+                      ><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;<a
+                        >+917845360097</a
+                      ></span
+                    >
+                  </p>
+                  <p
+                    class="card-text animate__animated animate__lightSpeedInRight animate__delay-5s"
+                  >
+                    <span class="text-muted"
+                      ><i class="fab fa-telegram"></i>&nbsp;&nbsp;<a
+                        >+917845360097</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-danger">
+            <a href="https://github.com/stormsoundar" target="_blank"
+              ><i class="fab fa-github fa-2x mx-4" style="color: #211f1f"></i
+            ></a>
+            <a href="https://www.facebook.com/StormSoundar" target="_blank"
+              ><i
+                class="fab fa-facebook-f fa-2x mx-4"
+                style="color: #4267b2"
+              ></i
+            ></a>
+            <a href="https://twitter.com/soundarit1995" target="_blank"
+              ><i class="fab fa-twitter fa-2x mx-4" style="color: #00acee"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/soundar-rajan-365337b2"
+              target="_blank"
+              ><i
+                class="fab fa-linkedin-in fa-2x mx-4"
+                style="color: #0e76a8"
+              ></i
+            ></a>
+            <a
+              href="https://www.instagram.com/storm_soundar_tamilan"
+              target="_blank"
+              ><i class="fab fa-instagram fa-2x mx-4" style="color: #f78fb3"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <span class="bg-danger text-white">About</span>
+            <hr class="bg-danger" />
+            <p class="lead text-justify">
+              To be a successful professional in a globally respected company
+              and to achieve the objectives of the company with honesty and
+              fairness and to continually upgrade my knowledge and skills. I'm a
+              jovial, kind, lovely & passionate. I like to have fun, work &
+              smile. My Hobbies include photography, gardening & cycling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="Skills" class="mt-5">
+      <div class="container">
+        <span class="bg-primary text-white">Expertise</span>
+        <hr class="bg-primary" />
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="card bg-white mt-2">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="https://angular.io/" target="_blank"
+                    ><i
+                      class="fab fa-angular fa-2x mr-4"
+                      style="color: #b71c1c"
+                    ></i></a
+                  ><a
+                    href="https://www.w3schools.com/html/default.asp"
+                    target="_blank"
+                    ><i
+                      class="fab fa-html5 fa-2x mr-4"
+                      style="color: #e34c26"
+                    ></i></a
+                  ><a href="https://www.w3schools.com/css/" target="_blank"
+                    ><i
+                      class="fab fa-css3-alt fa-2x mr-4"
+                      style="color: #264de4"
+                    ></i></a
+                  ><a href="https://getbootstrap.com/" target="_blank"
+                    ><i
+                      class="fab fa-bootstrap fa-2x mr-4"
+                      style="color: #9933cc"
+                    ></i></a
+                  ><a
+                    href="https://www.w3schools.com/js/DEFAULT.asp"
+                    target="_blank"
+                    ><i
+                      class="fab fa-js-square fa-2x mr-4"
+                      style="color: #ffd600"
+                    ></i
+                  ></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://nodejs.org/en/" target="_blank"
+                    ><i
+                      class="fab fa-node-js fa-2x mr-4"
+                      style="color: #3c873a"
+                    ></i
+                  ></a>
+                  <a href="https://www.java.com/en/" target="_blank"
+                    ><i
+                      class="fab fa-java fa-2x mr-3"
+                      style="color: #5382a1"
+                    ></i
+                  ></a>
+                  <a href="https://sequelize.org/" target="_blank"
+                    ><i class="mr-3"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg"
+                        height="35px"
+                        width="35px"
+                        alt="sequelize"
+                        style="margin-top: -10px" /></i
+                  ></a>
+                  <a href="https://expressjs.com/" target="_blank">
+                    <i class="mr-3"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
+                        height="35px"
+                        width="65px"
+                        alt="express"
+                        style="margin-top: -10px" /></i></a
+                  ><!-- <i class="mr-4"><img src="https://www.vectorlogo.zone/logos/springio/springio-ar21.svg" height="35px" width="65px" alt="spring" style="margin-top: -10px"></i> -->
+                </li>
+                <li class="list-group-item">
+                  <a href="https://www.mysql.com/" target="_blank"
+                    ><i class="mr-4"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg"
+                        height="35px"
+                        width="65px"
+                        alt="mysql"
+                        style="margin-top: -10px" /></i
+                  ></a>
+                  <a href="https://www.mongodb.com/" target="_blank"
+                    ><i class="mr-3"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
+                        height="50px"
+                        width="80px"
+                        alt="mongodb" /></i
+                  ></a>
+                  <a href="https://www.postgresql.org/" target="_blank">
+                    <i class="mr-3"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"
+                        height="20px"
+                        width="90px"
+                        alt="postgres"
+                    /></i>
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="https://code.visualstudio.com/" target="_blank"
+                    ><i class="mr-4"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"
+                        height="55px"
+                        width="110px"
+                        alt="vscode"
+                        style="margin-top: -10px" /></i></a
+                  ><a href="https://www.jetbrains.com/idea/" target="_blank"
+                    ><i class="mr-3"
+                      ><img
+                        src="https://cdn.worldvectorlogo.com/logos/intellijidea.svg"
+                        height="55px"
+                        width="90px"
+                        alt="intellijidea" /></i></a
+                  ><a href="https://aws.amazon.com/" target="_blank"
+                    ><i class="mr-3"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+                        height="55px"
+                        width="120px"
+                        alt="aws" /></i></a
+                  ><a href="https://firebase.google.com/" target="_blank"
+                    ><i class="mr-3"
+                      ><img
+                        src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg"
+                        height="45px"
+                        width="100px"
+                        alt="firebase" /></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section id="Projects" class="mt-5">
+      <div class="container">
+        <span class="text-white" style="background-color: #f7b731"
+          >Activity</span
+        >
+        <hr style="background-color: #f7b731" />
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="list-group list-group-flush">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        alt="scholar Quiz"
+                        height="60"
+                        width="90"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed = !isCollapsed"
+                        [attr.aria-expanded]="!isCollapsed"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="quizCollapseExample"
+                        ><span class="m-auto"
+                          ><h4 class="projectTitle">Scholar Quiz</h4></span
+                        ></a
+                      >
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed = !isCollapsed"
+                        [attr.aria-expanded]="!isCollapsed"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="quizCollapseExample"
+                        ><i
+                          class="fas fa-chevron-circle-down fa-2x m-auto"
+                          id="circleIcon"
+                        ></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div
+                      class="collapse multi-collapse"
+                      id="quizCollapseExample"
+                      [ngbCollapse]="isCollapsed"
+                    >
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                            <div class="card-body lead">
+                              An above project is a web application that will be
+                              integrated for a student can attend a Quiz
+                              Competition. In the project, a frontend framework
+                              is Angular, backend is Node JS. This also done by
+                              MEAN.
+                            </div>
+                          </div>
+                          <div
+                            class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto"
+                          >
+                            <a
+                              href="https://github.com/stormsoundar/quiz-meanstack"
+                              target="_blank"
+                              id="link"
+                              ><i class="fab fa-github-square fa-3x"></i></a
+                            >&nbsp;&nbsp;
+                            <!-- <a href="" id="link"><i class="fa fa-globe fa-3x"></i></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <img
+                        src="https://www.statnews.com/wp-content/uploads/2020/02/Coronavirus-CDC-645x645.jpg"
+                        alt="Covid19"
+                        height="60"
+                        width="90"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed2 = !isCollapsed2"
+                        [attr.aria-expanded]="!isCollapsed2"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="covidCollapseExample"
+                        ><span class="m-auto"
+                          ><h4 class="projectTitle">
+                            Covid19 India Tracker
+                          </h4></span
+                        ></a
+                      >
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed2 = !isCollapsed2"
+                        [attr.aria-expanded]="!isCollapsed2"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="covidCollapseExample"
+                        ><i
+                          class="fas fa-chevron-circle-down fa-2x m-auto"
+                          id="circleIcon"
+                        ></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div
+                      class="collapse multi-collapse"
+                      id="covidCollapseExample"
+                      [ngbCollapse]="isCollapsed2"
+                    >
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                            <div class="card-body lead">
+                              An above project is a web application that will be
+                              integrated showing a covid19 information about
+                              India’s states and every districts. It projecting
+                              a table view of COVID19 Cases every day report of
+                              Bharat India.
+                            </div>
+                          </div>
+                          <div
+                            class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto"
+                          >
+                            <a
+                              href="https://github.com/stormsoundar/covid19-tracker-india"
+                              target="_blank"
+                              id="link"
+                              ><i class="fab fa-github-square fa-3x"></i></a
+                            >&nbsp;&nbsp;
+                            <a
+                              href="https://covid19-tracker-india-6fcb8.web.app"
+                              target="_blank"
+                              id="link"
+                              ><i class="fa fa-globe fa-3x"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <img
+                        src="../assets/images/logo.jpg"
+                        alt="DeepaStore"
+                        height="60"
+                        width="90"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed3 = !isCollapsed3"
+                        [attr.aria-expanded]="!isCollapsed3"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="deepaCollapseExample"
+                        ><span class="m-auto"
+                          ><h4 class="projectTitle">
+                            Deepa Grocery Shop
+                          </h4></span
+                        ></a
+                      >
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed3 = !isCollapsed3"
+                        [attr.aria-expanded]="!isCollapsed3"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="deepaCollapseExample"
+                        ><i
+                          class="fas fa-chevron-circle-down fa-2x m-auto"
+                          id="circleIcon"
+                        ></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div
+                      class="collapse multi-collapse"
+                      id="deepaCollapseExample"
+                      [ngbCollapse]="isCollapsed3"
+                    >
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                            <div class="card-body lead">
+                              An above project is a web application that will be
+                              integrated showing a commercial website
+                              information about a small scale grocery shop. It
+                              projecting about shop products, services and
+                              contact to shop proprietor. It contains a
+                              slideshow of their products and location on map
+                              view.
+                            </div>
+                          </div>
+                          <div
+                            class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto"
+                          >
+                            <a
+                              href="https://github.com/stormsoundar?tab=repositories"
+                              target="_blank"
+                              id="link"
+                              ><i class="fab fa-github-square fa-3x"></i></a
+                            >&nbsp;&nbsp;
+                            <a
+                              href="https://deepa-maligai.web.app/"
+                              target="_blank"
+                              id="link"
+                              ><i class="fa fa-globe fa-3x"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <img
+                        src="data:image/png;base64,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"
+                        alt="CRUD"
+                        height="60"
+                        width="90"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed4 = !isCollapsed4"
+                        [attr.aria-expanded]="!isCollapsed4"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="crudCollapseExample"
+                        ><span class="m-auto"
+                          ><h4 class="projectTitle">CRUD Application</h4></span
+                        ></a
+                      >
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto">
+                      <a
+                        data-bs-toggle="collapse"
+                        (click)="isCollapsed4 = !isCollapsed4"
+                        [attr.aria-expanded]="!isCollapsed4"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="crudCollapseExample"
+                        ><i
+                          class="fas fa-chevron-circle-down fa-2x m-auto"
+                          id="circleIcon"
+                        ></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div
+                      class="collapse multi-collapse"
+                      id="crudCollapseExample"
+                      [ngbCollapse]="isCollapsed4"
+                    >
+                      <div class="card">
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                            <div class="card-body lead">
+                              An above project is a web application that will be
+                              integrated for Create, Read, Update, and Delete
+                              operations with done by a User. In the project, a
+                              frontend framework is Angular, backend is Node.js
+                              ORM with Sequelize and Postgres.
+                            </div>
+                          </div>
+                          <div
+                            class="col-xs-12 col-sm-12 col-md-2 col-lg-2 m-auto"
+                          >
+                            <a
+                              href="https://github.com/stormsoundar/crud-ng-node"
+                              target="_blank"
+                              id="link"
+                              ><i class="fab fa-github-square fa-3x"></i></a
+                            >&nbsp;&nbsp;
+                            <!-- <a href="" id="link"><i class="fa fa-globe fa-3x"></i></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience -->
+    <section id="Experience" class="mt-5">
+      <div class="container">
+        <span class="bg-success text-white">Action</span>
+        <hr class="bg-success" />
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card systemic bg-white mt-2">
+              <img
+                src="../assets/images/0.jpg"
+                alt="systemic"
+                height="60"
+                width="200"
+                class="img-fluid py-3 m-auto"
+              />
+              <h4 class="text-center pt-2" style="color: #0099cc">
+                Software Trainee
+              </h4>
+              <p class="lead text-justify p-3">
+                Worked as a Software Trainee in Systemic Info Solutions Pvt Ltd,
+                Salem from 2019 to 2020. Implementing web application using
+                Angular 9, develop front-end application along with HTML, CSS
+                and JavaScript.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card rajesh bg-white mt-2">
+              <h2 class="py-3 m-auto display-4 text-success">Rajesh Labels</h2>
+              <h4 class="text-center text-success">Laser and Label Designer</h4>
+              <p class="lead text-justify p-3">
+                Worked as a Label Designer in Rajesh Labels Pvt Ltd, Avinashi
+                from 2017 to 2019. Designing and make a custom designs of woven
+                labels. To make a delivery process from the production in Laser
+                Department.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contact" class="mt-5">
+      <div class="container">
+        <span class="text-white">Connect</span>
+        <hr />
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="card">
+              <div class="card-title text-center mt-5">
+                <h5>Contact Me On Below</h5>
+              </div>
+              <form
+                #connectForm="ngForm"
+                (ngSubmit)="onSubmit(connectForm.value)"
+              >
+                <div class="form-group">
+                  <div class="card-body">
+                    <div class="row mx-auto">
+                      <div
+                        class="col-xs-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                      >
+                        <div class="mt-3">
+                          <h6>
+                            <label for="name" class="form-label">Name</label>
+                          </h6>
+                          <input
+                            class="form-control"
+                            type="text"
+                            name="name"
+                            ngModel
+                            placeholder="Enter Your Name"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-xs-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                      >
+                        <div class="mt-2">
+                          <h6>
+                            <label for="email" class="form-label">Email</label>
+                          </h6>
+                          <input
+                            class="form-control"
+                            type="email"
+                            name="email"
+                            ngModel
+                            placeholder="Enter Your Email"
+                            required
+                            email
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-xs-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                      >
+                        <div class="mt-2">
+                          <h6>
+                            <label for="phone" class="form-label">Phone</label>
+                          </h6>
+                          <input
+                            class="form-control"
+                            type="text"
+                            name="phone"
+                            minlength="10"
+                            maxlength="10"
+                            ngModel
+                            placeholder="Enter Your Mobile"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-xs-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                      >
+                        <div class="mt-2">
+                          <h6>
+                            <label for="purpose" class="form-label"
+                              >Purpose</label
+                            >
+                          </h6>
+                          <textarea
+                            class="form-control"
+                            name="purpose"
+                            rows="3"
+                            ngModel
+                            placeholder="Write something..."
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div
+                        class="col-xs-12 col-sm-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1"
+                      >
+                        <div class="mt-2 text-center">
+                          <button
+                            type="submit"
+                            name="Submit"
+                            class="btn btn-outline-primary btn-lg"
+                            [disabled]="!connectForm.valid"
+                          >
+                            Submit Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid bg-dark mt-5">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p class="text-white text-center pt-3">
+            Reserved By: Soundararajan.M in 2021
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>

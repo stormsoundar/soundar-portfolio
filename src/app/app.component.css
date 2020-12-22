@@ -1,0 +1,202 @@
+.text_1 {
+  animation: text1;
+}
+.text_2 {
+  animation: text2;
+}
+.text_1,
+.text_2 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  padding-top: 10px;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+.text_1::after,
+.text_2::after {
+  /* content: "|"; */
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text2 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+
+  60%,
+  90% {
+    width: 13.7em;
+  }
+}
+@keyframes text1 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+  10%,
+  40% {
+    width: 8em;
+  }
+}
+
+.nav-link {
+  font-size: medium;
+}
+
+#bg-img {
+  background: url("../assets/images/7.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+.card-body {
+  text-align: left;
+}
+
+section {
+  padding-top: 90px;
+}
+
+#About {
+  margin-top: -200px;
+}
+
+.card-footer .fab:hover {
+  animation: shakeY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#About span {
+  padding: 10px 20px 10px 20px;
+}
+
+#About hr {
+  border-width: 2px;
+  margin-top: 7px;
+}
+
+#Skills span {
+  padding: 10px 20px 10px 20px;
+}
+
+#Skills hr {
+  border-width: 2px;
+  margin-top: 7px;
+}
+
+#Skills i:hover {
+  animation: flip; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#Skills img:hover {
+  animation: flip; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#Projects span {
+  padding: 10px 20px 10px 20px;
+}
+
+#Projects hr {
+  border-width: 2px;
+  margin-top: 7px;
+}
+
+#Projects #link {
+  color: #757575;
+}
+
+#Projects i:hover {
+  animation: jello;
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#Projects .projectTitle {
+  cursor: pointer;
+}
+
+#Projects .fa-chevron-circle-down {
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+#Projects #circleIcon {
+  color: #0d47a1;
+}
+
+#Projects #circleIcon:hover {
+  color: #4285F4;
+  animation: shakeY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#Projects h4 {
+  font-family: Arial, Helvetica, Arial, sans-serif;
+}
+
+#Projects button {
+  margin: 5px;
+  border-radius: 0%;
+}
+
+#Experience span {
+  padding: 10px 20px 10px 20px;
+}
+
+#Experience hr {
+  border-width: 2px;
+  margin-top: 7px;
+}
+
+#Experience .systemic {
+  border-top: 4px solid #0099cc;
+}
+
+#Experience .rajesh {
+  border-top: 4px solid #20bf6b;
+}
+
+#Contact span {
+  padding: 10px 20px 10px 20px;
+  background-color: #8E24AA;
+}
+
+#Contact hr {
+  background-color: #8E24AA;
+  border-width: 2px;
+  margin-top: 7px;
+}
+
+#Contact .card {
+  border-top: 4px solid #8E24AA;
+}
+
+#Contact .btn {
+  color: #8E24AA;
+  border: 1px solid #8E24AA;
+}
+
+#Contact .btn:hover {
+  background-color: #8E24AA;
+  border: 1px solid #8E24AA;
+  color: #fff;
+}
+
+footer {
+  overflow-x: hidden;
+}
